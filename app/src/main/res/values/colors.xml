@@ -5,4 +5,9 @@
     <color name="colorAccent">#9E9E9E</color>
     <color name="darkgray">#424242</color>
     <color name="white">#fff</color>
+    <color name="error">#f44336</color>
+    <color name="success">#009900</color>
+    <color name="warning">#ffc107</color>
+    <color name="info">#3f51b5</color>
+    <color name="lightgray">#F5F5F5</color>
 </resources>

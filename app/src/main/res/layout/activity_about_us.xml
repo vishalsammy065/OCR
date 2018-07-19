@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    tools:context="com.example.vishal.ocr.AboutUs">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="12dp">
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="39dp"
+                android:src="@drawable/circleimage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us"
+                android:layout_marginTop="200dp"
+                android:padding="22dp"
+                android:id="@+id/textView2" />
+
+        <Button
+            android:id="@+id/facebookButton"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:background="#3b5998"
+            android:text="Facebook"
+            android:onClick="openFacebook"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/facebookButton"
+            android:layout_below="@+id/facebookButton"
+            android:layout_marginTop="12dp"
+            android:background="#0077b5"
+            android:text="LinkedIn"
+            android:onClick="openLinkedIn"
+            android:textColor="@color/white"
+            android:id="@+id/linkedInButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linkedInButton"
+            android:textColor="@color/darkgray"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:autoLink="web|email"
+            android:text="vishal.sammy065@gmail.com"
+            android:textSize="14dp" />
+        </RelativeLayout>
+</ScrollView>

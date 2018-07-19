@@ -4,5 +4,5 @@
     >
     <item android:id="@+id/aboutus" android:title="About Us" />
     <item android:id="@+id/quit" android:title="Quit"/>
-    <item android:id="@+id/share" android:title="Share" android:icon="@drawable/ic_share_white" app:showAsAction="always"/>
+    <item android:id="@+id/share" android:title="Share" android:onClick="shareButton" android:icon="@drawable/ic_share_white" app:showAsAction="always"/>
 </menu>

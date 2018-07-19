@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="160dp"
-    android:background="@drawable/header">
+    android:background="@drawable/header"
+    android:orientation="vertical">
 
-    <ImageView
+    <!-- <ImageView
+        android:id="@+id/userImage"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_marginLeft="15dp"
@@ -14,24 +14,25 @@
         android:src="@drawable/circleimage"></ImageView>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/userName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
         android:text="Vishal Tiwari"
         android:textColor="#E3F2FD"
         android:textSize="14dp"
-        android:textStyle="bold"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="10dp"/>
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/currentUserEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="02dp"
-        android:text="vishal.sammy065@gmail.com"
         android:textColor="#E3F2FD"
-        android:textSize="14dp" />
+        android:text="vishal.sammy065@gmail.com"
+        android:textSize="14dp" />-->
 
 
 </LinearLayout>

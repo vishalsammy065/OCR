@@ -2,5 +2,15 @@
     <string name="app_name">OCR</string>
     <string name="drawer_open">drawer open</string>
     <string name="drawer_close">drawer close</string>
+    <string name="about_us">Hi, my name is Vishal and I\'m currently pursuing my Bachelor of Computer Applications from Amity Institute of Information Technology, under Amity University. I don\'t have much experience on android development apart from an internship that i did back in summer and that is why you see the naiveness. I sleep alot and for fun I listen to rock music. I also have a blog on which I post occasionally but it\'s not much of a hit. Anyway, you can contact me at the following links which are provided below. </string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="action_settings"> </string>
+    <string name="steps">1. Tap Open Camera or Gallary\n2. Click or Choose the image file.\n3. Tap on the Tick Button.</string>
+    <string name="help"> OCR stands for Optical Character Recognition and it helps you to extract character based data or text data from Image files using Image processing techniques. OCR can be used online and offline also. It uses the tesseract library which is an offline solution to the text extraction process in OCR and it also uses Google Vision API which is an online solution to the text extraction process in OCR. During the tests, the accuracy of the process proved to be better when internet was switched on so it is recommended to turn on your internet for better results. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thatsit">And that\'s it, this is as easy as it goes. Now extract data from the Image file on the go. </string>
+    <string name="places">1. Digitize paper documents.\n2. Documenting class notes into word files. Yay, No more writing.\n3. Extracts your favorite quotes from the images.\n4. Speaks whats there in the image for you, from version 1.1 onward.  </string>
+    <string name="title_activity_settings">Settings</string>
 
 </resources>

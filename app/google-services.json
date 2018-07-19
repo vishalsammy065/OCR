@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1074707899055",
+    "firebase_url": "https://optical-character-recogn-e1258.firebaseio.com",
+    "project_id": "optical-character-recogn-e1258",
+    "storage_bucket": "optical-character-recogn-e1258.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074707899055:android:90417c1dc15de6ed",
+        "android_client_info": {
+          "package_name": "com.example.vishal.ocr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074707899055-9vkj4no6p7tleegk4olqahh99475j4sl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vishal.ocr",
+            "certificate_hash": "792f9367b1f32acc47eba1d3220e0019bac856dc"
+          }
+        },
+        {
+          "client_id": "1074707899055-dvsha3h3gike26ti6d4cbmanlab4uvut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRPjJOYEIhCP1tNQweRMG90bBx9C7xRoU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074707899055-dvsha3h3gike26ti6d4cbmanlab4uvut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
